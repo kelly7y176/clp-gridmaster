@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/clp-gridmaster/static/css/main.4e879113.css",
+    "main.js": "/clp-gridmaster/static/js/main.0062f80c.js",
+    "static/js/453.993c22db.chunk.js": "/clp-gridmaster/static/js/453.993c22db.chunk.js",
+    "index.html": "/clp-gridmaster/index.html",
+    "main.4e879113.css.map": "/clp-gridmaster/static/css/main.4e879113.css.map",
+    "main.0062f80c.js.map": "/clp-gridmaster/static/js/main.0062f80c.js.map",
+    "453.993c22db.chunk.js.map": "/clp-gridmaster/static/js/453.993c22db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e879113.css",
+    "static/js/main.0062f80c.js"
+  ]
+}
