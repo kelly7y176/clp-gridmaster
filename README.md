@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# CLP Grid-Master: Interactive SOP Training System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a high-fidelity interactive prototype designed for training young electrical engineers on critical substation operations.
 
-## Available Scripts
+## 🌟 The "Un-boring" Concept: Gamified Learning
+Instead of reading a static manual, users are placed in a **high-stakes simulation** where they must manage a transformer voltage overload.
 
-In the project directory, you can run:
+- **Dynamic Feedback:** Real-time line charts showing voltage fluctuations.
+- **Interactive Decision Making:** Integrated Emergency SOP Quiz that requires immediate action before system failure.
+- **Visual Impact:** High-contrast UI (Tailwind CSS) that shifts from "Safe Blue" to "Danger Red" to simulate stress.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technical Implementation (Task 1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React.js with `useState` & `useEffect` for the simulation engine.
+- **Data Visualization:** `recharts` for the real-time telemetry feed.
+- **Animation:** `framer-motion` for fluid state transitions and emergency overlays.
+- **Icons:** `lucide-react` for a clean, industrial dashboard look.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚡ Task 2: Interactive Transformer Concept (In-App Animation)
+*Replacing traditional video with an interactive "Physics-to-Code" module.*
 
-### `npm run build`
+I have implemented an interactive **Transformer Efficiency & Induction** simulation using React and Framer Motion. This demonstrates:
+1. **Electromagnetic Induction:** Visualizing the flow between Primary and Secondary coils.
+2. **Real-time Variables:** How adjusting the "Turns Ratio" affects voltage outputs.
+3. **Interactive Debugging:** A hands-on way to understand $V_s/V_p = N_s/N_p$.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 How to Run
+1. Clone the repo: `git clone ...`
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm start`
