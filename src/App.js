@@ -19,6 +19,7 @@ import {
   ReferenceLine,
 } from "recharts";
 import { motion, AnimatePresence } from "framer-motion";
+import TransformerSim from "./TransformerSim";
 
 const generateData = () =>
   Array.from({ length: 20 }, (_, i) => ({ time: i, value: 220 }));
@@ -451,6 +452,11 @@ const App = () => {
           </div>
         </div>
       </main>
+
+      {/* Task 2 Section */}
+      <div className="mt-12">
+        <TransformerSim />
+      </div>
 
       {/* 失敗覆蓋層 */}
       <AnimatePresence>
