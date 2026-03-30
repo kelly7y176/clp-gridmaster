@@ -1,0 +1,41 @@
+# --- OS Specific Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- Node.js / React ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+
+# --- PHP / Backend ---
+vendor/
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+.server-config.php
+
+# --- Environment & Credentials (非常重要！唔好將密碼上傳) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# --- Docker & Local Dev ---
+.docker/
+docker-compose.override.yml
+.servbay/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
