@@ -2,7 +2,7 @@
   "name": "clp-gridmaster",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME",
+  "homepage": "https://kelly7y176.github.io/clp-gridmaster",
   "dependencies": {
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.284.0",
